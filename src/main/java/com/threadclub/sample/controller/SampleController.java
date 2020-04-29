@@ -41,7 +41,7 @@ public class SampleController extends BaseController {
 
     @GetMapping("/{id}")
     public ResponseEntity findById(@PathVariable Long id) {
-        return this.deleteById(id, x -> sampleService.delete(x));
+        return ResponseEntity.ok(new SampleVo(sampleService.find(id)));
     }
 
     @GetMapping("/list")
