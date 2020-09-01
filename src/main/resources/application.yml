@@ -8,6 +8,10 @@ spring:
   profiles:
     active: @profileActive@
 
+rest:
+  baseDtoPackage: com.threadclub.sample.service.dto
+  baseVoPackage: com.threadclub.sample.controller.vo
+
 logging:
   pattern:
     file: "%d{yyyy-MM-dd HH:mm:ss.SSS} %5level [%15thread] %-50.50(%logger{39}.%method:%-3line) - %msg%n"
