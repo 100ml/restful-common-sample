@@ -16,7 +16,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.thread-club</groupId>
+            <groupId>com.threadclub</groupId>
             <artifactId>restful-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

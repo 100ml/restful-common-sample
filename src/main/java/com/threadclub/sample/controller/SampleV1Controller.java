@@ -1,11 +1,11 @@
 package com.threadclub.sample.controller;
 
 import com.threadclub.controller.BaseController;
-import com.threadclub.sample.controller.dto.SampleAddDto;
-import com.threadclub.sample.controller.dto.SampleQueryDto;
-import com.threadclub.sample.controller.dto.SampleUpdateDto;
 import com.threadclub.sample.controller.vo.SampleVo;
 import com.threadclub.sample.service.SampleService;
+import com.threadclub.sample.service.dto.SampleAddDto;
+import com.threadclub.sample.service.dto.SampleQueryDto;
+import com.threadclub.sample.service.dto.SampleUpdateDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("/samples")
-public class SampleController extends BaseController {
+@RequestMapping("/samples/v1")
+public class SampleV1Controller extends BaseController {
 
     @Autowired
     private SampleService sampleService;

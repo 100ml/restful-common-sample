@@ -1,6 +1,6 @@
-package com.threadclub.sample.controller.dto;
+package com.threadclub.sample.service.dto;
 
-import com.threadclub.controller.dto.QueryDto;
+import com.threadclub.service.dto.QueryDto;
 import lombok.Data;
 
 @Data

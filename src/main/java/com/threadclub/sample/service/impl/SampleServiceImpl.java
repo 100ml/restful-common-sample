@@ -1,15 +1,15 @@
 package com.threadclub.sample.service.impl;
 
 import com.google.common.collect.Lists;
-import com.threadclub.controller.dto.AddDto;
-import com.threadclub.controller.dto.QueryDto;
-import com.threadclub.controller.dto.UpdateDto;
-import com.threadclub.sample.controller.dto.SampleAddDto;
-import com.threadclub.sample.controller.dto.SampleQueryDto;
-import com.threadclub.sample.controller.dto.SampleUpdateDto;
 import com.threadclub.sample.entity.Sample;
 import com.threadclub.sample.repository.SampleRepository;
 import com.threadclub.sample.service.SampleService;
+import com.threadclub.sample.service.dto.SampleAddDto;
+import com.threadclub.sample.service.dto.SampleQueryDto;
+import com.threadclub.sample.service.dto.SampleUpdateDto;
+import com.threadclub.service.dto.AddDto;
+import com.threadclub.service.dto.QueryDto;
+import com.threadclub.service.dto.UpdateDto;
 import com.threadclub.service.impl.BaseServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
